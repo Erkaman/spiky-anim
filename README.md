@@ -4,7 +4,7 @@ The source code of some silly spiky animation I made. This program
 creates a bunch of SVGs(they are the frames of the animation),
 converts them all to png, and then makes a mp4 video file from them.
 
-![Animated](images/spiky.gif)
+![Animated](img/spiky.gif)
 
 ## Making the Animation
 
