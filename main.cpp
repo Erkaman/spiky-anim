@@ -160,7 +160,7 @@ int main(int argc, char** argv) {
         fprintf(fp, "</svg>");
         fclose(fp);
     }
-    printf("create svgs\n");
+    printf("created svgs\n");
 
     system("cd temp/ && for i in *.svg; do rsvg-convert $i -o `echo $i | sed -e 's/svg$/png/'`; done");
     printf("converted svgs to png\n");
